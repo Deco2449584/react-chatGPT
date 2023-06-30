@@ -1,0 +1,53 @@
+@import "_variables";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color-fondo;
+  height: 100vh;
+
+  .signin-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    input {
+      margin-bottom: $spacing-medium;
+      padding: $spacing-small;
+      border: 1px solid $color-secondary;
+      border-radius: $border-radius;
+      font-family: $font-body;
+    }
+
+    button {
+      background-color: $color-primary;
+      color: #fff;
+      padding: $spacing-small $spacing-medium;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: $color-secondary;
+    }
+
+    .signin-links {
+      margin-top: $spacing-medium;
+      text-align: center;
+
+      a {
+        color: $color-primary;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          transition: all 0.55s ease;
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}

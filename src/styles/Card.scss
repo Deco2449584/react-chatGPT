@@ -1,0 +1,9 @@
+@import "_variables";
+.card {
+  width: 500px;
+  height: 500px;
+  background: $color-fondo-invert;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(9, 8, 8, 0.327);
+  padding: 20px;
+}

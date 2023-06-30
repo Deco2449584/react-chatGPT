@@ -1,0 +1,54 @@
+// Colores
+$color-primary: #845ec2;
+$color-secondary: #2c73d2;
+$color-there: #0081cf;
+$color-four: #0089ba;
+$color-five: #008e9b;
+$color-six: #008f7a;
+$color-success: #28a745;
+$color-danger: #dc3545;
+$color-warning: #ffc107;
+$color-fondo: linear-gradient(
+  to right top,
+  #845ec2,
+  #6b6ac9,
+  #5074cb,
+  #337cc9,
+  #1582c4,
+  #0086bf,
+  #008ab8,
+  #008db0,
+  #008fa7,
+  #00909a,
+  #00908b,
+  #008f7a
+);
+$color-fondo-invert: linear-gradient(
+  to left bottom,
+  #845ec2,
+  #6b6ac9,
+  #5074cb,
+  #337cc9,
+  #1582c4,
+  #0086bf,
+  #008ab8,
+  #008db0,
+  #008fa7,
+  #00909a,
+  #00908b,
+  #008f7a
+);
+
+// Letras
+$font-heading: "Arial", sans-serif;
+$font-body: "Roboto", sans-serif;
+$font-title: "Montserrat", sans-serif;
+$font-subtitle: "Open Sans", sans-serif;
+$font-link: "Lato", sans-serif;
+
+// Otros
+$border-radius: 4px;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+$spacing-small: 8px;
+$spacing-medium: 16px;
+$spacing-large: 24px;
