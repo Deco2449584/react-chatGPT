@@ -37,9 +37,9 @@ const SigninForm = () => {
           />
           <button type="submit">Sign In</button>
           <div className="signin-links">
-            <a href="#">Forgot Password</a>
+            <a href="/forgot-password">Forgot Password</a>
             <span> | </span>
-            <a href="#">Sign Up</a>
+            <a href="/signup">Sign Up</a>
           </div>
         </form>
       </Card>
